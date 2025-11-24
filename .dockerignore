@@ -1,0 +1,32 @@
+# Git
+.git/
+.gitignore
+README.md
+
+# Environment variables (já são passadas como variáveis)
+.env
+.env.local
+
+# Dependencies (serão instaladas via RUN npm install)
+node_modules/
+npm-debug.log*
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker files (não precisam estar dentro do container)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Documentação
+*.md
